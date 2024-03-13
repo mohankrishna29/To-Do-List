@@ -1,0 +1,28 @@
+body{
+    font-family: Arial;
+}
+.ToDo-List, .input-grid{
+    display: grid;
+    grid-template-columns: 200px 150px 100px;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.input-grid{
+    margin-bottom: 10px;
+}
+.js-del, .add-task, .date-input, .task-input{
+    font-size: 15px;
+    padding: 6px;
+    cursor: pointer;
+}
+.js-del{
+    background-color: brown;
+    color: white;
+    border: none;
+}
+.add-task{
+    background-color: greenyellow;
+    border: none;
+
+}
